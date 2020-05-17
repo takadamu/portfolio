@@ -21,16 +21,15 @@
     <div class="contact-form">
       <div class="form-title">お問い合わせ</div>
       <form method="post" action="sent.php">
-        <div class="form-item">名前<br>
-        <!-- この下にinputタグを書いていきましょう -->
-          <input type="text" name="name">
-        </div>
-        <div class="form-item">内容
-        <!-- この下にtextareaタグを書いていきましょう -->
-          <textarea name="body">
-            
-          </textarea>
-        </div>
+        <div class="form-item">名前</div>
+        <input type="text" name="name">
+        
+        <div class="form-item">内容</div>
+        <textarea name="body"></textarea>
+
+        <!-- この下に送信ボタンを作りましょう -->
+        <input type="submit" value="送信">
+        
       </form>
     </div>
   </div>
